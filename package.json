@@ -1,0 +1,42 @@
+{
+  "name": "pelias-gtfs",
+  "version": "0.0.0",
+  "description": "Pelias import pipeline for GTFS stops.",
+  "main": "import.js",
+  "dependencies": {
+    "csv-parse": "^1.1.7",
+    "lodash": "^4.10.0",
+    "minimist": "1.2.0",
+    "pelias-dbclient": "2.0.0",
+    "pelias-logger": "0.0.8",
+    "pelias-model": "4.2.0",
+    "pelias-wof-admin-lookup": "2.2.0",
+    "through2": "2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "2.9.1",
+    "precommit-hook": "3.0.0"
+  },
+  "scripts": {
+    "import": "node import.js",
+    "lint": "jshint .",
+    "start": "node import.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsldevcom/pelias-gtfs.git"
+  },
+  "keywords": [
+    "Pelias",
+    "GTFS",
+    "import"
+  ],
+  "author": "hsldevcom",
+  "bugs": {
+    "url": "https://github.com/hsldevcom/pelias-gtfs/issues"
+  },
+  "homepage": "https://github.com/hsldevcom/pelias-gtfs",
+  "pre-commit": [
+    "lint"
+  ]
+}
