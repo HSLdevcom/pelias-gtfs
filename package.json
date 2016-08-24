@@ -20,7 +20,8 @@
   "scripts": {
     "import": "node import.js",
     "lint": "jshint .",
-    "start": "node import.js"
+    "start": "node import.js",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
