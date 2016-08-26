@@ -18,9 +18,7 @@
     "precommit-hook": "3.0.0"
   },
   "scripts": {
-    "import": "node import.js",
     "lint": "jshint .",
-    "start": "node import.js",
     "validate": "npm ls"
   },
   "repository": {
@@ -38,6 +36,8 @@
   },
   "homepage": "https://github.com/hsldevcom/pelias-gtfs",
   "pre-commit": [
-    "lint"
+    "lint",
+    "validate",
+    "test"
   ]
 }
