@@ -37,7 +37,6 @@
   "homepage": "https://github.com/hsldevcom/pelias-gtfs",
   "pre-commit": [
     "lint",
-    "validate",
     "test"
   ]
 }
