@@ -1,4 +1,3 @@
-
 {
   "name": "pelias-gtfs",
   "version": "0.0.0",
@@ -6,13 +5,13 @@
   "main": "import.js",
   "dependencies": {
     "csv-parse": "^1.1.7",
-    "lodash": "^4.10.0",
+    "lodash": "^4.16.0",
     "minimist": "1.2.0",
-    "through2": "2.0.1",
-    "pelias-dbclient": "2.0.0",
+    "through2": "2.0.3",
+    "pelias-dbclient": "2.2.0",
     "pelias-logger": "0.2.0",
-    "pelias-model": "4.8.1",
-    "pelias-wof-admin-lookup": "3.7.0"
+    "pelias-model": "5.0.1",
+    "pelias-wof-admin-lookup": "3.10.0"
   },
   "devDependencies": {
     "jshint": "2.9.1",
