@@ -6,7 +6,7 @@
   "dependencies": {
     "csv-parse": "3.2.0",
     "lodash": "^4.17.4",
-    "minimist": "1.2.0",
+    "minimist": "1.2.5",
     "through2": "3.0.0",
     "pelias-dbclient": "github:hsldevcom/dbclient",
     "pelias-wof-admin-lookup": "github:hsldevcom/wof-admin-lookup",
