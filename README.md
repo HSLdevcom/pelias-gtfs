@@ -14,4 +14,4 @@ npm install
 
 In above, the optional prefix will be added to the full document id as 'GTFS:<prefix>:stop_id'.
 
-Zipped data can be dowloaded from: http://dev-api.digitransit.fi/routing-data/v1/router-hsl.zip
+Zipped data can be dowloaded from: http://api.digitransit.fi/routing-data/v2/hsl/HSL.zip
