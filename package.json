@@ -4,10 +4,10 @@
   "description": "Pelias import pipeline for GTFS stops.",
   "main": "import.js",
   "dependencies": {
-    "csv-parse": "3.2.0",
+    "csv-parse": "4.16.0",
     "lodash": "^4.17.4",
     "minimist": "1.2.0",
-    "through2": "3.0.0",
+    "through2": "4.0.2",
     "pelias-dbclient": "github:hsldevcom/dbclient",
     "pelias-wof-admin-lookup": "github:hsldevcom/wof-admin-lookup",
     "pelias-logger": "1.2.1",
