@@ -1,0 +1,10 @@
+{
+  "node": true,
+  "esversion": 9,
+  "curly": true,
+  "latedef": true,
+  "quotmark": true,
+  "undef": true,
+  "unused": true,
+  "trailing": true
+}
