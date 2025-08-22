@@ -4,7 +4,7 @@
   "description": "Pelias import pipeline for GTFS stops.",
   "main": "import.js",
   "scripts": {
-    "lint": "jshint ."
+    "lint": "jshint lib"
   },
   "dependencies": {
     "csv-parse": "5.5.0",
